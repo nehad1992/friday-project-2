@@ -1,4 +1,38 @@
+
+.container {
+    /* border-style: solid; */
+    padding: 20px;
+}
+h1 {
+    color: #0a0a23;
+    /* font-size: 5rem; */
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+    padding-bottom: 20px;
+}
 #line1 {
+    margin: 0 0 1.5em;
+    padding: 0 1.5em;
+    border-left: 3px solid #002ead;
+    font-size: large;
+    font-family: sans-serif;
+}
+#line2 {
+    margin: 0 0 1.5em;
+    padding: 0 1.5em;
+    border-left: 3px solid #002ead;
+    font-size: large;
+    font-family: sans-serif;
+
+}
+
+#line3 {
+    color: crimson;
+}
+
+
+
+/* #line1 {
     font-style: italic;
 }
 
@@ -9,11 +43,11 @@
 #line2 {
     color: rgb(189, 61, 61);
     font-style: italic;
-}
+} */
 
-.para1 {
+/* .para1 {
     padding: 10px;
-}
+} */
 
 .btn {
     padding: 15px;
