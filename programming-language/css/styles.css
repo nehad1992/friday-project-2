@@ -1,4 +1,6 @@
-
+body {
+    background-color: rgb(255, 242, 227);
+}
 .container {
     /* border-style: solid; */
     padding: 20px;
@@ -33,4 +35,21 @@ h1 {
 
 .btn {
     padding: 15px;
+    color: ghostwhite;
+    background-color: rgb(130, 117, 243);
+    font-size: 20px;
+    
+}
+#imp {
+    
+    font-size: larger;
+    color: rgb(243, 107, 107);
+    font-style: italic;
+}
+.radio {
+    font-size: 20px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66, 122, 122);
 }

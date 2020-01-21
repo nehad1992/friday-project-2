@@ -10,11 +10,11 @@ $(document).ready(function() {
              
             alert("You should choose java");
         }
-        else if ( season === "white" && color === "grey" && drink === "kombucha" && sports === "rugby") 
+        else if ( season === "white" && color === "grey" && drink === "kombucha" && sports === "rugby" && vacation === "beaches") 
          {
             alert("You should choose C#");
         }
-        else if (season === "spring" && drink === "tea" && sports === "cricket")
+        else if (season === "spring" && drink === "tea" && sports === "cricket" && color === "black" && vacation === "mountains")
         {
             alert("You should choose Python");
         }
