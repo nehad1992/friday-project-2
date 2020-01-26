@@ -1,24 +1,35 @@
-# _Programming-Languages-Project2_
+# Programming Language Predictor
 
-#### By _**Neha Doodi**_
+#### A program that takes several inputs from user and give a labguage as an output result!
+
+#### Made By : Neha Doodi
 
 ## Description
 
-_Filling out a form to see which programming language is best for you._
+A website where user can answer several questions asked and based on those answers he gets a language that user can choose.
+
 
 ## Setup/Installation Requirements
 
-* _Clone the repository._
+1. Clone the repository to your computer/laptop. (https://nehad1992.github.io/friday-project-2)
+2. Open the webpage by double clicking on "index.html".
+3. Select the choices given from every question and hit "Show me result" button.
 
-## GitHub link:
-_https://nehad1992.github.io/friday-project-2/_
 
-## Support and contact details
-
-_Contact Neha Doodi at Epicodus_
+## Known Bugs
+* No known bugs at this time.
 
 ## Technologies Used
+* HTML
+* CSS
+* Javascript
 
-_HTML CSS Bootstrap_
+## Contact details
 
-Copyright (c) 2020 **_Neha Doodi_**
+_Contact Neha at Epicodus,Seattle._
+
+### License
+
+*{This software is licensed under the MIT license}*
+
+Copyright (c) 2020 **_{Neha Doodi}_**
