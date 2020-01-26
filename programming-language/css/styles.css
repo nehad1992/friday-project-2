@@ -53,3 +53,11 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(66, 122, 122);
 }
+#result {
+    display: none;
+    padding-top: 20px;
+    color: rgb(243, 184, 33);
+}
+#lang {
+    font-style: italic;
+}
