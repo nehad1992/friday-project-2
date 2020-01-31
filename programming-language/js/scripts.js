@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#form1").submit(function() {
+    $("#form1").submit(function(event) {
         event.preventDefault();
         var season = $("input:radio[name=season]:checked").val();
         var drink = $("input:radio[name=drink]:checked").val();
@@ -9,20 +9,23 @@ $(document).ready(function() {
         if  (color === "white" && season === "summer" && drink === "coffee" && sports === "swimming" && vacation === "city")  
         {
              
-            var language = "You should choose Java.".;
+            var language = "You should choose Java.";
+            $("#lang").text(language);
         }
         else if ( season === "white" && color === "grey" && drink === "kombucha" && sports === "rugby" && vacation === "beaches") 
          {
             var language = "You should choose C#.";
+             $("#lang").text(language);
         }
         else if (season === "spring" && drink === "tea" && sports === "cricket" && color === "black" && vacation === "mountains")
         {
-            var launguage = "You should choose Python.";
+            var language = "You should choose Python.";
+            $("#lang").text(language);
         }
         else {
             var language = "You should choose Ruby." ;
+            $("#lang").text(language);
         }
-        $("#lang").text(language);
         $("#result").show();
         });  
 });
